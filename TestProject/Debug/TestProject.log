@@ -1,0 +1,42 @@
+﻿Build started 2015-04-19 7:26:51 PM.
+     1>Project "C:\Users\Adam\Documents\Visual Studio 2012\Projects\Applications\MyGameEngine\MyGameEngine\TestProject\TestProject.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Adam\Documents\Visual Studio 2012\Projects\Applications\MyGameEngine\MyGameEngine\OpenGL3+\include" /I"C:\Users\Adam\Documents\Visual Studio 2012\Projects\Applications\MyGameEngine\MyGameEngine\MyGameEngine" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt DemoApp.cpp win32Main.cpp
+         win32Main.cpp
+     1>c:\users\adam\documents\visual studio 2012\projects\applications\mygameengine\mygameengine\mygameengine\amvectormath.h(80): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\adam\documents\visual studio 2012\projects\applications\mygameengine\mygameengine\mygameengine\amvectormath.h(85): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\math.h(631): warning C4005: 'M_PI' : macro redefinition
+                 c:\users\adam\documents\visual studio 2012\projects\applications\mygameengine\mygameengine\mygameengine\amvec3.h(13) : see previous definition of 'M_PI'
+         DemoApp.cpp
+     1>c:\users\adam\documents\visual studio 2012\projects\applications\mygameengine\mygameengine\mygameengine\amvectormath.h(80): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\adam\documents\visual studio 2012\projects\applications\mygameengine\mygameengine\mygameengine\amvectormath.h(85): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\math.h(631): warning C4005: 'M_PI' : macro redefinition
+                 c:\users\adam\documents\visual studio 2012\projects\applications\mygameengine\mygameengine\mygameengine\amvec3.h(13) : see previous definition of 'M_PI'
+     1>c:\users\adam\documents\visual studio 2012\projects\applications\mygameengine\mygameengine\mygameengine\collisionchecker.h(20): warning C4091: 'static ' : ignored on left of 'CollisionChecker' when no variable is declared
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Adam\Documents\Visual Studio 2012\Projects\Applications\MyGameEngine\MyGameEngine\Debug\TestProject.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Adam\Documents\Visual Studio 2012\Projects\Applications\MyGameEngine\MyGameEngine\OpenGL3+\lib" /LIBPATH:"C:\Users\Adam\Documents\Visual Studio 2012\Projects\Applications\MyGameEngine\MyGameEngine\Debug" MyGameEngine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Adam\Documents\Visual Studio 2012\Projects\Applications\MyGameEngine\MyGameEngine\Debug\TestProject.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Adam\Documents\Visual Studio 2012\Projects\Applications\MyGameEngine\MyGameEngine\Debug\TestProject.lib" /MACHINE:X86 Debug\DemoApp.obj
+         Debug\win32Main.obj
+         "C:\Users\Adam\Documents\Visual Studio 2012\Projects\Applications\MyGameEngine\MyGameEngine\MyGameEngine\Debug\Camera.obj"
+         "C:\Users\Adam\Documents\Visual Studio 2012\Projects\Applications\MyGameEngine\MyGameEngine\MyGameEngine\Debug\Clock.obj"
+         "C:\Users\Adam\Documents\Visual Studio 2012\Projects\Applications\MyGameEngine\MyGameEngine\MyGameEngine\Debug\CollisionChecker.obj"
+         "C:\Users\Adam\Documents\Visual Studio 2012\Projects\Applications\MyGameEngine\MyGameEngine\MyGameEngine\Debug\GameEngine.obj"
+         "C:\Users\Adam\Documents\Visual Studio 2012\Projects\Applications\MyGameEngine\MyGameEngine\MyGameEngine\Debug\LoadShaders.obj"
+         "C:\Users\Adam\Documents\Visual Studio 2012\Projects\Applications\MyGameEngine\MyGameEngine\MyGameEngine\Debug\Logger.obj"
+         "C:\Users\Adam\Documents\Visual Studio 2012\Projects\Applications\MyGameEngine\MyGameEngine\MyGameEngine\Debug\ModelManager.obj"
+         "C:\Users\Adam\Documents\Visual Studio 2012\Projects\Applications\MyGameEngine\MyGameEngine\MyGameEngine\Debug\OpenGLRenderer.obj"
+         "C:\Users\Adam\Documents\Visual Studio 2012\Projects\Applications\MyGameEngine\MyGameEngine\MyGameEngine\Debug\SceneGraph.obj"
+         "C:\Users\Adam\Documents\Visual Studio 2012\Projects\Applications\MyGameEngine\MyGameEngine\MyGameEngine\Debug\SceneManager.obj"
+         "C:\Users\Adam\Documents\Visual Studio 2012\Projects\Applications\MyGameEngine\MyGameEngine\MyGameEngine\Debug\SceneNode.obj"
+         "C:\Users\Adam\Documents\Visual Studio 2012\Projects\Applications\MyGameEngine\MyGameEngine\MyGameEngine\Debug\SimpleModel.obj"
+         "C:\Users\Adam\Documents\Visual Studio 2012\Projects\Applications\MyGameEngine\MyGameEngine\MyGameEngine\Debug\TextureManager.obj"
+            Creating library C:\Users\Adam\Documents\Visual Studio 2012\Projects\Applications\MyGameEngine\MyGameEngine\Debug\TestProject.lib and object C:\Users\Adam\Documents\Visual Studio 2012\Projects\Applications\MyGameEngine\MyGameEngine\Debug\TestProject.exp
+     1>win32Main.obj : warning LNK4217: locally defined symbol ?LogMessage@Logger@@QBEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4LogPriority@@@Z (public: void __thiscall Logger::LogMessage(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,enum LogPriority)const ) imported in function _WinMain@16
+     1>win32Main.obj : warning LNK4217: locally defined symbol ?GetInstance@Logger@@SAAAV1@XZ (public: static class Logger & __cdecl Logger::GetInstance(void)) imported in function _WinMain@16
+     1>glew_static_vs2010_d.lib(glew.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'glew_static_vs2010_d.lib(glew.obj)' or at 'C:\Users\Adam\Documents\Visual Studio 2012\Projects\Applications\MyGameEngine\MyGameEngine\Debug\vc100.pdb'; linking object as if no debug info
+         TestProject.vcxproj -> C:\Users\Adam\Documents\Visual Studio 2012\Projects\Applications\MyGameEngine\MyGameEngine\Debug\TestProject.exe
+     1>Done Building Project "C:\Users\Adam\Documents\Visual Studio 2012\Projects\Applications\MyGameEngine\MyGameEngine\TestProject\TestProject.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.93
